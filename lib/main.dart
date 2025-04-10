@@ -107,6 +107,7 @@ class _DockState extends State<Dock> {
                   return MouseRegion(
                     onEnter: (_) => setState(() => _hoveredIndex = index),
                     child: AnimatedContainer(
+                      
                       duration: const Duration(milliseconds: 180),
                       curve: Curves.easeOutCubic,
                       margin: const EdgeInsets.symmetric(horizontal: 4),
